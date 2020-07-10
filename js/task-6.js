@@ -1,4 +1,4 @@
-let total = 0;
+let total6 = 0;
 
 while (true) {
   let userNumber = prompt("Введите число");
@@ -16,7 +16,7 @@ while (true) {
     continue;
   }
 
-  total += userNumber;
+  total6 += userNumber;
 }
 
-alert(`Общая сумма чисел равна ${total}`);
+alert(`Общая сумма чисел равна ${total6}`);

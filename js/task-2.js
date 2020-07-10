@@ -1,8 +1,8 @@
 "use strict";
 const total = 100;
 const ordered = 50;
-let sms =
+const sms =
   total < ordered
-    ? "На складе недостаточно твоаров!"
+    ? "На складе недостаточно товаров!"
     : "Заказ оформлен, с вами свяжется менеджер";
 console.log(sms);

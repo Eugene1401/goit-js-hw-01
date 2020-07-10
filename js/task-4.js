@@ -1,4 +1,4 @@
-let numberOfDroid = prompt("Введите количество дроидов!");
+const numberOfDroid = prompt("Введите количество дроидов!");
 let message4;
 let totalPrice;
 const pricePerDroid = 3000;
